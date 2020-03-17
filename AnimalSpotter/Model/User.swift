@@ -6,6 +6,9 @@
 //  Copyright © 2020 Lambda School. All rights reserved.
 //
 
-import Foundation {
-    
+import Foundation
+
+struct User: Codable {
+    let username: String
+    let password: String
 }
